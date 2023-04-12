@@ -3,8 +3,49 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  /* padding: 6rem; */
   min-height: 100vh;
+}
+
+.scoreTable {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.scoreTable button {
+  text-align: center;
+  width: 100%;
+}
+
+.numBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400;
+  background-color: black;
+  border: 2px solid #000;
+  box-shadow: 24;
+  padding: 4;
+}
+
+.numBox h3 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.numPad {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.numPad button {
+  text-align: center;
+  /* width: 100%; */
 }
 
 .description {
